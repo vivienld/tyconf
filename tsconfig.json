@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "module": "CommonJS",
+      "outDir": "build",
+      "noImplicitAny": true,
+      "removeComments": false,
+      "preserveConstEnums": true,
+      "sourceMap": true,
+      "declaration": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "**/*.spec.ts"],
+    "typedocOptions": {
+      "entryPoints": ["src/index.ts"],
+      "out": "docs"
+  }
+}
